@@ -153,24 +153,24 @@ section{
         background-repeat: no-repeat;
     }
     .bottom-pattern{
-        bottom: 0px;
-        left: 0px;
-        background: none;
+       display: none;
     }
     .top-pattern{
-        background:none;
+        display: none;
     }
     section{
         background-color: hsl(0, 0%, 100%);
         margin-top: 50px;
         max-width: 100%; 
-        margin: 0%;
+        margin: 5% 10%;
     }
     .first-section{
         display: flex;
         flex-wrap: wrap;
         padding-top: 30px;
         max-width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     .text-area{
         width: 100%;
@@ -180,27 +180,32 @@ section{
         color: hsl(300, 43%, 22%);
         font-weight: 700;
         font-size: 7vw;
-        width: 100%;
+        margin-left: 22%;
     }
     .text-area p{
         color: hsl(303, 10%, 53%);
         font-size: 12px;
         font-weight: 400;
-        margin-top: 10px;
-        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        
     }
     .star-area{
         display: flex;
-        align-items: center;
-        gap: 5px;
+        flex-wrap: wrap;
+        gap: 0px;
     }
     #first-area, #second-area, #third-area{
         background: hwb(302 48% 42% / 0.11);
-        margin-top: 0px;
+        margin-top: 10px;
         width: 200px;
-        padding: opx;
+        padding: 10px;
         border-radius: 10px;
         margin-left: 0px;
+        display: flex;
+        flex-direction: column;
     }
     #second-area{
         margin-left: 0%;
@@ -209,10 +214,9 @@ section{
         margin-left: 0%;
     }
     .star-box{
-      margin-top: 50px;
-      display: flex;
-      flex-wrap: wrap;
+      margin-top: 20px;
       width: 100%;
+      margin-left: 17%;
 
     }
     .star-area h2{
@@ -220,18 +224,26 @@ section{
         font-weight: 700;
         font-size: 10px;
         margin-left: 7px;
+        margin-top: 10px;
+    }
+    .star{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
     }
     .star-icon{
-        width: 2px;
+        width: 8px;
     }
     .cards{
         display: flex;
         flex-wrap: wrap;
         margin-left: 0px;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 30px;
         padding-bottom: 60px;
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
     }
     .first-card, .second-card, .third-card{
         border-radius: 10px;
@@ -241,7 +253,7 @@ section{
     }
     .second-card{
         margin-left: 0px;
-        margin-top: 2dvh;
+        margin-top: 20px;
     }
     .third-card{
         margin-left: 0px;
@@ -252,7 +264,7 @@ section{
         display: flex;
         align-items: center;
         align-content: center;
-        gap: 10px;
+        gap: 8px;
     } 
     .profile-img{
         width: 35px;
@@ -277,9 +289,9 @@ section{
     .card-paragraph{
         color: white;
         font-weight: 500;
-        font-size: 13px;
-        margin-top: 20px;
-        line-height: 20px;
+        font-size: 11px;
+        margin-top: 15px;
+        line-height: 15px;
     }
 }
 

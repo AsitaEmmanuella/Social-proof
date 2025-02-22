@@ -142,7 +142,7 @@ section{
     margin-top: 20px;
     line-height: 20px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
     body{
        width: 100%;
     }
@@ -163,12 +163,12 @@ section{
     section{
         background-color: hsl(0, 0%, 100%);
         margin-top: 50px;
-        width: 100%; 
+        max-width: 100%; 
         margin: 0%;
     }
     .first-section{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         padding-top: 30px;
         max-width: 100%;
     }
@@ -197,7 +197,7 @@ section{
     #first-area, #second-area, #third-area{
         background: hwb(302 48% 42% / 0.11);
         margin-top: 0px;
-        width: 270px;
+        width: 200px;
         padding: opx;
         border-radius: 10px;
         margin-left: 0px;
@@ -212,17 +212,17 @@ section{
       margin-top: 50px;
       display: flex;
       flex-wrap: wrap;
-        width: 100%;
+      width: 100%;
 
     }
     .star-area h2{
         color: hsl(300, 43%, 22%);
         font-weight: 700;
-        font-size: 12px;
-        margin-left: 13px;
+        font-size: 10px;
+        margin-left: 7px;
     }
     .star-icon{
-        width: 11px;
+        width: 2px;
     }
     .cards{
         display: flex;

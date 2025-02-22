@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "League Spartan", serif;
+    background-color: hsl(300, 24%, 96%);
+    min-height: 100vh; 
+}
+.bg-pattern{
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+.bottom-pattern{
+    bottom: -40px;
+    left: 400px;
+    background: url(./images/bg-pattern-bottom-desktop.svg)no-repeat;
+}
+.top-pattern{
+    background: url(./images/bg-pattern-top-desktop.svg)no-repeat;
+}
+section{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 70px;
+    width: 80%;
+    margin-left: 10%;
+   
+}
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 90px;
+    max-width: 100%;
+}
+.text-area h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 3vw;
+}
+.text-area{
+    width: 30%;
+    margin-left: 10%;
+}
+.text-area p{
+    color: hsl(303, 10%, 53%);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.star-area{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#first-area, #second-area, #third-area{
+    background: hwb(302 48% 42% / 0.11);
+    margin-top: 20px;
+    width: 320px;
+    padding: 15px 0px 15px 15px;
+    border-radius: 10px;
+    margin-left: 95px;
+}
+#second-area{
+    margin-left: 18%;
+}
+#third-area{
+    margin-left: 21%;
+}
+.star-box{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; 
+  width: 55%;
+}
+.star-area h2{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 13px;
+}
+.star-icon{
+    width: 13px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    margin-left: 135px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 60px;
+    max-width: 100%;
+}
+.first-card, .second-card, .third-card{
+    border-radius: 10px;
+   background-color: hsl(300, 43%, 22%); 
+   width: 270px;
+   padding: 30px 20px;
+}
+.second-card{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.third-card{
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.text-head{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+} 
+.profile-img{
+    width: 35px;
+    border-radius: 50px;
+}
+.head-paragraph{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.head-paragraph h4{
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+.head-paragraph p{
+    color: hsl(333, 80%, 47%);
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 2px;
+}
+.card-paragraph{
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    body{
+       width: 100%;
+    }
+    .bg-pattern{
+        background-size: contain;
+        position: absolute;
+        z-index: -1;
+        background-repeat: no-repeat;
+    }
+    .bottom-pattern{
+        bottom: -40px;
+        left: 400px;
+        background: url(./images/bg-pattern-bottom-desktop.svg)no-repeat;
+    }
+    .top-pattern{
+        background: url(./images/bg-pattern-top-desktop.svg)no-repeat;
+    }
+    section{
+        background-color: hsl(0, 0%, 100%);
+        margin-top: 50px;
+        width: 100%; 
+        margin-left: 30%;
+    }
+    .first-section{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        max-width: 100%;
+    }
+    .text-area{
+        width: 0%;
+        margin-left: 0%;
+    }
+    .text-area h1{
+        color: hsl(300, 43%, 22%);
+        font-weight: 700;
+        font-size: 7vw;
+    }
+    .text-area p{
+        color: hsl(303, 10%, 53%);
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    .star-area{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    #first-area, #second-area, #third-area{
+        background: hwb(302 48% 42% / 0.11);
+        margin-top: 20px;
+        width: 270px;
+        padding: opx;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+    #second-area{
+        margin-left: 0%;
+    }
+    #third-area{
+        margin-left: 0%;
+    }
+    .star-box{
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 0%;
+    }
+    .star-area h2{
+        color: hsl(300, 43%, 22%);
+        font-weight: 700;
+        font-size: 12px;
+        margin-left: 13px;
+    }
+    .star-icon{
+        width: 11px;
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        margin-left: 135px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-bottom: 60px;
+        max-width: 100%;
+    }
+    .first-card, .second-card, .third-card{
+        border-radius: 10px;
+       background-color: hsl(300, 43%, 22%); 
+       width: 270px;
+       padding: 30px 20px;
+    }
+    .second-card{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .third-card{
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    
+    .text-head{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        gap: 10px;
+    } 
+    .profile-img{
+        width: 35px;
+        border-radius: 50px;
+    }
+    .head-paragraph{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .head-paragraph h4{
+        font-weight: 700;
+        font-size: 15px;
+        color: white;
+    }
+    .head-paragraph p{
+        color: hsl(333, 80%, 47%);
+        font-weight: 700;
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    .card-paragraph{
+        color: white;
+        font-weight: 500;
+        font-size: 13px;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+}
+
+
